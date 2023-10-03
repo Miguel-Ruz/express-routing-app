@@ -9,6 +9,10 @@ app.set('view engine', 'ejs'); // Puedes usar EJS u otro motor de plantillas
 // Establece la ubicación de tus archivos de vista
 app.set('views', __dirname);
 
+//servir archivos estaticos
+app.use(express.static('public')); // 'public' es el nombre de tu carpeta de archivos estáticos
+
+
 // Configura el motor de plantillas EJS
 app.set('view engine', 'ejs');
 
