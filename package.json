@@ -1,0 +1,15 @@
+{
+  "name": "express-routing-app",
+  "version": "1.0.0",
+  "description": "Una aplicación web simple con rutas usando Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.17.1"
+  }
+}
