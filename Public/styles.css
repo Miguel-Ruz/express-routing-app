@@ -1,16 +1,17 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Dela Gothic One', cursive;
+font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #000000;
+    color: #ffffff;
   }
   
   /* Estilos del encabezado y la barra de navegación */
   header {
-    background-color: #007BFF;
-    padding: 10px 0;
+    padding: 48px 0;
+    background: linear-gradient(180deg, #7300ff4d 24.48%, rgba(0, 0, 0, 0.256) 100%);
   }
   
   nav ul {
@@ -38,18 +39,28 @@ body {
   }
   
   nav ul li a:hover {
-    color: #ff5733;
+    color: #dc96ff;
+    text-shadow: 0px 0px 30px rgba(247, 136, 255, 0.4);
+    text-decoration: none;
   }
   
   /* Estilos del contenido principal */
   h1 {
-    font-size: 36px;
-    margin: 20px 0;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 100px;
+    margin-top: 128px;
+    color: #d683ff;
+    text-shadow: 0px 0px 325px rgba(247, 136, 255, 0.673);
+    margin-bottom: 10px;
+    text-align: center;
   }
   
   p {
+    font-family: 'Dela Gothic One', cursive;
     font-size: 18px;
+    color: #dc96ffab;
     margin: 0 0 20px;
+    text-align: center;
   }
   
   /* Estilos para enlaces */
